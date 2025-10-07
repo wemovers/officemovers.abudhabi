@@ -1,6 +1,5 @@
 import React from "react";
 import { FaHandshake, FaUsers, FaShieldAlt, FaGlobe } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const TrustBrandConnection = () => {
   const bgColor = '#1A3C27';        // 🌿 Deep Forest Green
@@ -43,10 +42,7 @@ const TrustBrandConnection = () => {
     >
       <div className="max-w-7xl mx-auto text-center">
         {/* 🌟 Section Header */}
-        <motion.h2
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+        <h2
           style={{
             fontSize: "2.5rem",
             fontWeight: "700",
@@ -55,7 +51,7 @@ const TrustBrandConnection = () => {
           }}
         >
           Why Brands Trust Us
-        </motion.h2>
+        </h2>
         <p
           style={{
             fontSize: "1.1rem",
@@ -78,11 +74,8 @@ const TrustBrandConnection = () => {
           }}
         >
           {trustData.map((item, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
               style={{
                 backgroundColor: "#1E4A33",
                 border: `1px solid ${borderColor}`,
@@ -121,7 +114,7 @@ const TrustBrandConnection = () => {
               >
                 {item.desc}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
