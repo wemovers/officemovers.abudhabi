@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWarehouse, FaArrowRight, FaGl
 import { motion } from "framer-motion";
 
 const ReachOutToUs = () => {
-  const bgColor = '#f5faf7ff';        // 🌿 Deep Forest Green
+  const bgColor = '#1A3C27';        // 🌿 Deep Forest Green
   const accentColor = '#27AE60';    // 💚 Vibrant Green
   const secondaryColor = '#2ECC71'; // 🟢 Fresh Green (hover)
   const contrastColor = '#F39C12';  // 🟠 Contrast Orange
