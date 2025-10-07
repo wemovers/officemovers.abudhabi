@@ -121,28 +121,7 @@ const OurOfficeMovingServices = () => {
           ))}
         </div>
 
-        <button
-          style={{
-            marginTop: "60px",
-            backgroundColor: contrastColor,
-            color: bgColor,
-            padding: "14px 35px",
-            fontSize: "1.1rem",
-            border: "none",
-            borderRadius: "8px",
-            fontWeight: "600",
-            cursor: "pointer",
-            transition: "background-color 0.3s ease",
-          }}
-          onMouseEnter={(e) =>
-            (e.currentTarget.style.backgroundColor = secondaryColor)
-          }
-          onMouseLeave={(e) =>
-            (e.currentTarget.style.backgroundColor = contrastColor)
-          }
-        >
-          Get a Quote
-        </button>
+       
       </div>
     </section>
   );

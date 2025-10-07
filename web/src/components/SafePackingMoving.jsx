@@ -1,6 +1,8 @@
 import React from "react";
 import safeImg1 from "../assets/img/safe1.webp"; // Replace with your actual image paths
 import safeImg2 from "../assets/img/safe2.jpg";
+import { Link } from "react-router-dom";
+
 
 const SafePackingMoving = () => {
   const bgColor = "#1A3C27";        // 🌿 Deep Forest Green
@@ -89,6 +91,7 @@ const SafePackingMoving = () => {
             marginBottom: "20px",
             color: textColor,
             opacity: 0.95,
+            textAlign:"justify"
           }}
         >
           At <b style={{ color: secondaryColor }}>WeMovers</b>, your belongings are treated with the care they deserve.
@@ -109,30 +112,35 @@ const SafePackingMoving = () => {
           business, our <b style={{ color: contrastColor }}>Safe Packing & Moving</b> service ensures
           peace of mind at every step — so you can focus on your next big move.
         </p>
-        <button
-          style={{
-            marginTop: "30px",
-            backgroundColor: contrastColor,
-            color: bgColor,
-            padding: "14px 36px",
-            border: "none",
-            borderRadius: "10px",
-            fontSize: "1.1rem",
-            fontWeight: "600",
-            cursor: "pointer",
-            transition: "background-color 0.3s ease, transform 0.3s ease",
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = secondaryColor;
-            e.currentTarget.style.transform = "translateY(-3px)";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = contrastColor;
-            e.currentTarget.style.transform = "translateY(0)";
-          }}
-        >
-          Learn More
-        </button>
+ <div style={{ textAlign: "center", marginTop: "40px" }}>
+  <Link to="/wemovers" style={{ textDecoration: "none" }}>
+    <button
+      style={{
+        backgroundColor: contrastColor,
+        color: bgColor,
+        padding: "14px 36px",
+        border: "none",
+        borderRadius: "10px",
+        fontSize: "1.1rem",
+        fontWeight: "600",
+        cursor: "pointer",
+        transition: "background-color 0.3s ease, transform 0.3s ease",
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.backgroundColor = secondaryColor;
+        e.currentTarget.style.transform = "translateY(-3px)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.backgroundColor = contrastColor;
+        e.currentTarget.style.transform = "translateY(0)";
+      }}
+    >
+      Learn More
+    </button>
+  </Link>
+</div>
+
+
       </div>
     </section>
   );
