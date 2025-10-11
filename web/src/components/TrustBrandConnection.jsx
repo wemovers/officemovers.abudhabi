@@ -12,23 +12,23 @@ const TrustBrandConnection = () => {
   const trustData = [
     {
       icon: <FaHandshake size={40} />,
-      title: "Trusted Partnerships",
-      desc: "We build long-term partnerships based on transparency, integrity, and commitment.",
+      title: "On-time delivery",
+      desc: "We value your time and business plan. Our employees stick to a strict timeline to ensure that each office migration is completed immediately and with as little disadvantage for your business as possible",
     },
     {
       icon: <FaUsers size={40} />,
-      title: "Thousands of Happy Clients",
-      desc: "Our customers trust us to deliver quality service and consistent support every time.",
+      title: "Quality",
+      desc: "High-quality packaging with careful handling ",
     },
     {
       icon: <FaShieldAlt size={40} />,
-      title: "Reliable & Secure",
-      desc: "We ensure safety, security, and accountability in every project we handle.",
+      title: "Commercial warranty",
+      desc: "Professional service guaranteed every step of the road ",
     },
     {
       icon: <FaGlobe size={40} />,
-      title: "Global Reach",
-      desc: "Our worldwide network connects businesses and clients with seamless solutions.",
+      title: "UAE broad service",
+      desc: "Offer service to all Emirates of equal quality",
     },
   ];
 
@@ -59,10 +59,10 @@ const TrustBrandConnection = () => {
             margin: "0 auto 60px",
             color: textColor,
             opacity: "0.9",
+            textAlign:"justify",
           }}
         >
-          We create strong brand connections by delivering quality, building trust,
-          and going beyond expectations — every single time.
+          Leading brands have come to trust WeMovers because of our dedication to accuracy, dependability, and client satisfaction. Each step is carefully performed to guarantee topicality and safety. We are the preferred choice for all Abu Dhabi companies because of our skilled workforce, top modern machines, and open process.
         </p>
 
         {/* 💚 Trust Cards */}
@@ -110,6 +110,7 @@ const TrustBrandConnection = () => {
                   color: "#dfe6e9",
                   opacity: "0.85",
                   lineHeight: "1.6",
+                  textAlign:"justify",
                 }}
               >
                 {item.desc}
