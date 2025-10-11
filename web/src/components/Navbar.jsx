@@ -175,7 +175,7 @@ const Navbar = () => {
           {renderNavLink('/#moving-services', 'Services')}
           {renderNavLink('/#get-quote', 'Contact')}
           {renderNavLink('/#faqs', 'FAQs')}
-          {renderNavLink('/blogs', 'Blogs', isBlog)}
+          {renderNavLink('/blog', 'Blogs', isBlog)}
 
           {isMobile && (
             <li>
