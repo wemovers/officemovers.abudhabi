@@ -11,29 +11,34 @@ const FAQs = () => {
 
   const faqs = [
     {
-      question: "How do I book a move with WeMovers?",
+      question: "Are my goods insured during transfer?",
       answer:
-        "Booking with WeMovers is easy! Simply visit our booking page, choose your moving service type, and fill out the required details. Our team will confirm your booking shortly.",
+        "Absolutely. Wemovers provides basic insurance coverage for all activities. For security, we also offer more insurance options depending on your needs.",
     },
     {
-      question: "Do you provide packing materials?",
+      question: "Do you offer long-distance or intercity travel?",
       answer:
-        "Yes, we provide high-quality, eco-friendly packing materials to ensure the safety of your belongings during transit. You can also request customized packing options.",
+        "Yes, office furniture Movers in the UAE are experts in both local and long-distance relocation. Whether you move to a city or over an emirate, we have you covered.",
     },
     {
-      question: "Can I track my moving vehicle?",
+      question: "Why rent Wemovers in Dubai?",
       answer:
-        "Absolutely! We offer real-time GPS tracking for your moving vehicle so you can monitor your items every step of the way.",
+        "At Wemovers, we stick to our mission to make your move as easy and worry-free as possible. Tamam means 'all is well' in Arabic. So trust us as your preferred company in Dubai and expect everything to fall into place.",
     },
     {
-      question: "Are my items insured during the move?",
+      question: "Is your Movers team also in Abu Dhabi?",
       answer:
-        "Yes, WeMovers provides full insurance coverage options to protect your items against damage or loss during relocation.",
+        "Yes, our moving company is also in Abu Dhabi. If you need to move in and around Abu Dhabi, we provide transmission services in Abu Dhabi.",
     },
     {
-      question: "Do you handle office and commercial relocations?",
+      question: "How to contact our Movers and Packers in Abu Dhabi?",
       answer:
-        "We specialize in both residential and commercial relocations. Our professional team ensures smooth, organized office moves with minimal downtime.",
+        "It's easy to reach us. Call Toll Free +971-50 935 9181 Or e -post info@wemovers.ae to communicate with our moves in Abu Dhabi. Our offices in Dubai and Abu Dhabi are well-connected and will connect you to our team for moving in Abu Dhabi.",
+    },
+    {
+      question: "What do your transport services in Abu Dhabi do reliably?",
+      answer:
+        "As Movers and Packers in Abu Dhabi, we have had the same reliability and inheritance from Wemovers for many years. Our team of movers in Abu Dhabi is also strictly trained on troubleshooting moving methods, etiquette, and customer-facing skills. In addition, they are trained in packing and moving hacks, and all safety standards are followed during the move.",
     },
   ];
 

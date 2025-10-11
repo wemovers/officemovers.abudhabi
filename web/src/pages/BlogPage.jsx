@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
 import img from '../assets/img/r1.jpg';
-import img2 from '../assets/img/safe1.webp';
+import img2 from '../assets/img/po.png';
 import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
@@ -19,13 +19,13 @@ const BlogPage = () => {
     },
      {
       id: 2,
-      title: 'Best and Cheap International Movers in Dubai, UAE',
-      description: 'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.....',
-      metaTitle:'Top-Rated Best & Cheap International Movers in Dubai',
-      metaDescription:'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.',
-      thumbnail: img2,
-      date: 'October 2, 2025',
-      url: '/blog/best-and-cheap-international-movers-in-dubai-uae'
+      title: 'How Professional Office Movers Help Reduce Downtime for Your Business',
+      description: 'Relocating an office may be a thrilling milestone for any company. It usually represents progress, fresh opportunities, and a fresh start in a better area. However, one of the biggest challenges when relocating a company in Abu Dhabi is downtime......',
+      metaTitle:'How Office Movers in Abu Dhabi Reduce Business Downtime',
+      metaDescription:'Professional office movers in Abu Dhabi help reduce downtime, ensure safe relocation, and keep your business operations running smoothly during the move.',
+       thumbnail: img2,
+      date: 'October 11, 2025',
+      url: '/blog/professional-office-movers'
     },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');

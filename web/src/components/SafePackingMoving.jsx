@@ -82,7 +82,7 @@ const SafePackingMoving = () => {
             fontWeight: "bold",
           }}
         >
-          Safe Packing & Moving
+         Skilled professionals are obliged to secure mobility
         </h2>
         <p
           style={{
@@ -94,10 +94,8 @@ const SafePackingMoving = () => {
             textAlign:"justify"
           }}
         >
-          At <b style={{ color: secondaryColor }}>WeMovers</b>, your belongings are treated with the care they deserve.
-          We combine advanced packing materials with professional handling
-          techniques to ensure that every item — from fragile glassware to heavy
-          furniture — reaches your destination safely and securely.
+      At <a href="https://www.wemovers.ae/services/office-relocation\" class="clickable-link\" target="_blank\">Office Movers</a> in Abu Dhabi, our experienced team handles each move with precision and care. We specialize in secure packaging, even loading, and safe delivery in the UAE-something that does your job worry-free from start to finish.
+
         </p>
         <p
           style={{
@@ -105,15 +103,13 @@ const SafePackingMoving = () => {
             lineHeight: "1.8",
             color: textColor,
             opacity: 0.9,
+            textAlign:"justify"
           }}
         >
-          Our team follows a detailed checklist and uses eco-friendly packing
-          supplies to minimize waste. Whether you’re relocating your home or
-          business, our <b style={{ color: contrastColor }}>Safe Packing & Moving</b> service ensures
-          peace of mind at every step — so you can focus on your next big move.
+         At Office Movers, we believe that <a href="https://www.wemovers.ae/blog\" class="clickable-link\" target="_blank\">moving</a> should be a seamless and positive experience. We treat your office furniture as our own - and ensure that every single feature is handled with care, precision, and professionalism
         </p>
  <div style={{ textAlign: "center", marginTop: "40px" }}>
-  <Link to="/wemovers" style={{ textDecoration: "none" }}>
+  <Link to="https://www.wemovers.ae" style={{ textDecoration: "none" }}>
     <button
       style={{
         backgroundColor: contrastColor,
