@@ -10,27 +10,27 @@ const OurOfficeMovingServices = () => {
   const borderColor = "#2D5E3F";    // 📗 Medium Green Border
 
   const services = [
-    {
-      icon: <FaBuilding />,
-      title: "Corporate Relocation",
-      desc: "We specialize in seamless corporate office moves — ensuring minimal downtime and safe transfer of equipment and documents.",
-    },
+    
     {
       icon: <FaBoxOpen />,
-      title: "Packing & Unpacking",
-      desc: "Our professional team packs, labels, and unpacks your items with utmost care to keep everything organized and safe.",
+      title: "Moving our company to Abu Dhabi has made things easier and less stressful",
+      desc: "One of the most difficult changes in life is definitely moving. It can be overwhelming to move, pack, and clean all your assets. We guarantee that our knowledgeable personnel will properly manage and secure your property because we are the best offices in Abu Dhabi. So that you don't have to worry about anything, our team of professionals will ensure that all documents, data, computers, and other equipment are packed correctly.",
     },
     {
       icon: <FaPeopleCarry />,
-      title: "Furniture Disassembly",
-      desc: "From cubicles to conference tables, we disassemble, move, and reassemble office furniture efficiently and safely.",
+      title: "We keep information secure",
+      desc: "We have moved a lot of business to Dubai and Abu Dhabi over the years. We take security seriously. That is why we have defined security measures for our team of moving and packages in Dubai to help us control all tasks safely. Our movements and packages in Abu Dhabi keep your sensitive information safe. Thus, it is not a concern for you. Whether it is a soft copy or a physical copy, we transmit all kinds of data.",
     },
     {
       icon: <FaTruckMoving />,
-      title: "Secure Transportation",
-      desc: "Our fleet of specialized moving trucks ensures secure and timely relocation of your office goods anywhere.",
+      title: "We pack valuable equipment carefully",
+      desc: "Moving valuable equipment to another place can be risky and expensive. Being the best offices in Abu Dhabi, we know this very well. That is why our team, with trained professionals, takes care of your assets carefully. Also, offer quality transport services to ensure that nothing is damaged during the move. Our office relocation in Abu Dhabi has worked hard to serve our star's reputation in commercial moving. You can totally trust that we take care of your property. Our office relocation in Abu Dhabi is an expert in packing your valuables, preparing them for transport, and ensuring safe arrival at the destination.",
     },
-   
+    {
+      icon: <FaCouch />,
+      title: "Trust the experience of our office migration in Abu Dhabi",
+      desc: "We have transferred companies of all sizes from start-ups to wealth. And with each move, our team of office relocation in Abu Dhabi becomes more creative and more efficient. We know what works and what doesn't. We take into account every step of your business and learn from your experiences. So whether you move the headquarters or prepare for a large-scale office extension, you can be assured that Wemovers will have your back. We also constantly examine ways of commuting more easily, time-saving, and cost-effective. Plus, to minimize shutdowns to focus on the company's core business, or enjoy the place to call home.",
+    },
   ];
 
   return (
@@ -51,7 +51,7 @@ const OurOfficeMovingServices = () => {
             fontWeight: "bold",
           }}
         >
-          Our Office Moving Services
+          Office Moving Services
         </h2>
         <p
           style={{
@@ -61,8 +61,8 @@ const OurOfficeMovingServices = () => {
             opacity: 0.9,
           }}
         >
-          Professional. Reliable. Eco-friendly. <br />
-          Experience smooth and stress-free business relocations with WeMovers.
+          Professional packing and moving services are offered throughout the United Arab Emirates by Office Furniture Movers.  We promise safe, efficient, and reliable relocation for housing, offices, and businesses.
+
         </p>
 
         <div
@@ -113,6 +113,7 @@ const OurOfficeMovingServices = () => {
                   fontSize: "1rem",
                   lineHeight: "1.6",
                   color: "#dfe6e9",
+                  textAlign:"justify"
                 }}
               >
                 {service.desc}
@@ -120,8 +121,6 @@ const OurOfficeMovingServices = () => {
             </div>
           ))}
         </div>
-
-       
       </div>
     </section>
   );
