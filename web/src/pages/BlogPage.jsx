@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
-import img from '../assets/img/safe1.webp';
+import img from '../assets/img/r1.jpg';
 import img2 from '../assets/img/safe1.webp';
 import { Link } from 'react-router-dom';
 
@@ -9,13 +9,13 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
-      title: 'Guidance on How to Hire Affordable International Movers in Dubai?',
-      description: 'To lease cheap international movers in Dubai, plan many months, get prices from multiple businesses by means of comparing their offerings and costs, and study destination customs regulations to ensure a smooth process.....',
-      metaTitle:'Best Tips: Hire Top Affordable Movers in Dubai',
-      metaDescription:'Find affordable international movers in Dubai. Get guidance on hiring reliable, cost-effective relocation services for your global move.',
+      title: 'How to locate reliable office moving services in the United Arab Emirates',
+      description: 'Welcome to Office Movers in Abu Dhabi. We are Abu Dhabis top-rated, ISO-certified movers and packers When its time to move out of your home or business,..',
+      metaTitle:'Reliable Office Movers in Abu Dhabi | UAE Experts',
+      metaDescription:'Find reliable office movers in Abu Dhabi for smooth business relocation across the UAE. Professional, affordable, and efficient moving services.',
       thumbnail: img,
-      date: 'October 2 2025',
-      url: '/blog/affordable-international-movers-in-dubai'
+      date: 'October 11 2025',
+      url: '/blog/locate-reliable-office-moving-services'
     },
      {
       id: 2,
