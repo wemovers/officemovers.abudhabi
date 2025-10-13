@@ -41,6 +41,7 @@ const OurOfficeMovingServices = () => {
         padding: "80px 20px",
         textAlign: "center",
       }}
+      id="moving-services"
     >
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
         <h2

@@ -17,6 +17,7 @@ const ReachOutToUs = () => {
         color: textColor,
         padding: "80px 20px",
       }}
+      id="reach-out-to-us"
     >
       <div className="max-w-6xl mx-auto text-center">
         {/* 📨 Section Title */}

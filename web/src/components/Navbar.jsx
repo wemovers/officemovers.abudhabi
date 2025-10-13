@@ -173,7 +173,6 @@ const Navbar = () => {
           {renderNavLink('/#safe-packing-and-moving', 'Packing&Moving')}
           {renderNavLink('/#reach-out-to-us', 'Reach Us')}
           {renderNavLink('/#moving-services', 'Services')}
-          {renderNavLink('/#get-quote', 'Contact')}
           {renderNavLink('/#faqs', 'FAQs')}
           {renderNavLink('/blog', 'Blogs', isBlog)}
 

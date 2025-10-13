@@ -24,6 +24,7 @@ const SafePackingMoving = () => {
         justifyContent: "center",
         gap: "40px",
       }}
+      id="safe-packing-and-moving"
     >
       {/* Left Image Section */}
       <div
