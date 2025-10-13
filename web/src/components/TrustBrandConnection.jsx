@@ -40,7 +40,7 @@ const TrustBrandConnection = () => {
         padding: "80px 20px",
       }}
     >
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center" id="trust-brand-connection">
         {/* 🌟 Section Header */}
         <h2
           style={{

@@ -56,6 +56,7 @@ const FAQs = () => {
         padding: "80px 20px",
         textAlign: "center",
       }}
+      id="faqs"
     >
       <div style={{ maxWidth: "900px", margin: "0 auto" }}>
         <h2
