@@ -1,5 +1,5 @@
-import img1 from '../assets/img/safe2.jpg';
-import img2 from '../assets/img/safe2.jpg';
+import img1 from '../assets/img/r1.jpg';
+import img2 from '../assets/img/po.png';
 
 const Blog = () => {
   const posts = [
@@ -7,17 +7,17 @@ const Blog = () => {
       id: 1,
       imgSrc: img1,
       category: "Moving Company",
-      title: "Sea Freight Explained: Practical Tips for Importers & Exporters in the UAE",
-      desc: "Products can look right at first glance, but more below the surface than meets the eye. As global trade continues to grow.....",
-      link: "https://www.seafreightforhouseholditems.ae/blog/practical-tips-for-importers-and-exporters-in-the-uae"
+      title: "How to locate reliable office moving services in the United Arab Emirates",
+      desc: "Welcome to Office Movers in Abu Dhabi. We are Abu Dhabis top-rated, ISO-certified movers and packers When its time to move out of your home or business....",
+      link: "https://www.officemovers.abudhabi/blog/locate-reliable-office-moving-services"
     },
     {
       id: 2,
       imgSrc: img2,
       category: "Moving Company",
-      title: "How to get Essential Tips for Sea Freight of Household Services with movers in Dubai?",
-      desc: "Get expert tips on sea freight for household items with movers in Dubai. Reliable movers, efficient packing & logistics.....",
-      link: "https://www.seafreightforhouseholditems.ae/blog/essential-tips-for-sea-freight"
+      title: "How Professional Office Movers Help Reduce Downtime for Your Business",
+      desc: "Relocating an office may be a thrilling milestone for any company. It usually represents progress, fresh opportunities, and a fresh start in a better area. However, one of the biggest challenges when relocating a company in Abu Dhabi is downtime......",
+      link: "https://www.officemovers.abudhabi/blog/professional-office-movers"
     }
   ];
 
