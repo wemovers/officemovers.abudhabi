@@ -14,7 +14,7 @@ const OurOfficeMovingServices = () => {
     {
       icon: <FaBoxOpen />,
       title: "Moving our company to Abu Dhabi has made things easier and less stressful",
-      desc: "One of the most difficult changes in life is definitely moving. It can be overwhelming to move, pack, and clean all your assets. We guarantee that our knowledgeable personnel will properly manage and secure your property because we are the best offices in Abu Dhabi. So that you don't have to worry about anything, our team of professionals will ensure that all documents, data, computers, and other equipment are packed correctly.",
+      desc: "One of the most difficult changes in life is definitely moving. It can be overwhelming to move, pack, and clean all your assets. We guarantee that our knowledgeable personnel will properly manage and secure your property because we are the best offices in Abu Dhabi.",
     },
     {
       icon: <FaPeopleCarry />,
@@ -24,12 +24,12 @@ const OurOfficeMovingServices = () => {
     {
       icon: <FaTruckMoving />,
       title: "We pack valuable equipment carefully",
-      desc: "Moving valuable equipment to another place can be risky and expensive. Being the best offices in Abu Dhabi, we know this very well. That is why our team, with trained professionals, takes care of your assets carefully. Also, offer quality transport services to ensure that nothing is damaged during the move. Our office relocation in Abu Dhabi has worked hard to serve our star's reputation in commercial moving. You can totally trust that we take care of your property. Our office relocation in Abu Dhabi is an expert in packing your valuables, preparing them for transport, and ensuring safe arrival at the destination.",
+      desc: "Moving valuable equipment to another place can be risky and expensive. Being the best offices in Abu Dhabi, we know this very well. That is why our team, with trained professionals, takes care of your assets carefully. Also, offer quality transport services to ensure that nothing is damaged during the move. Our office relocation in Abu Dhabi has worked hard to serve our star's reputation in commercial moving.",
     },
     {
       icon: <FaCouch />,
       title: "Trust the experience of our office migration in Abu Dhabi",
-      desc: "We have transferred companies of all sizes from start-ups to wealth. And with each move, our team of office relocation in Abu Dhabi becomes more creative and more efficient. We know what works and what doesn't. We take into account every step of your business and learn from your experiences. So whether you move the headquarters or prepare for a large-scale office extension, you can be assured that Wemovers will have your back. We also constantly examine ways of commuting more easily, time-saving, and cost-effective. Plus, to minimize shutdowns to focus on the company's core business, or enjoy the place to call home.",
+      desc: "We have transferred companies of all sizes from start-ups to wealth. And with each move, our team of office relocation in Abu Dhabi becomes more creative and more efficient. We know what works and what doesn't. We take into account every step of your business and learn from your experiences.",
     },
   ];
 
