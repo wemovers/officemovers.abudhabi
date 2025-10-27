@@ -92,16 +92,6 @@ const Hero = () => {
           >
             Office Movers In Abu Dhabi
           </h1>
-          <h2
-            style={{
-              fontSize: "2.5rem",
-              fontWeight: 300,
-              color: "#fff",
-              marginBottom: "30px"
-            }}
-          >
-            in Abu Dhabi
-          </h2>
         </div>
 
         {/* Features Grid */}
