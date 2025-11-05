@@ -156,10 +156,10 @@ const Footer = () => {
           <h5 style={headingStyle}>Follow Us</h5>
           <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
             {[
-              { icon: <FaWhatsapp />, link: "https://wa.me/971509359181" },
-              { icon: <FaFacebookF />, link: "https://www.facebook.com/wemoversae" },
+              { icon: <FaWhatsapp />, link: "https://wa.me/9715030348321" },
+              { icon: <FaFacebookF />, link: "https://www.facebook.com/wemoversuae" },
               { icon: <FaGoogle />, link: "https://www.wemovers.ae" },
-              { icon: <FaInstagram />, link: "https://www.instagram.com/wemoversae" },
+              { icon: <FaInstagram />, link: "https://www.instagram.com/wemoversuae" },
               { icon: <FaYoutube />, link: "https://www.youtube.com/@wemoversuae" },
             ].map(({ icon, link }, idx) => (
               <a
